@@ -17,7 +17,7 @@ assignees: ''
 ## Acceptance Criteria
 
 ```gherkin
-Given [context]
-When [action]
-Then [outcome]
+Given a user is authenticated and the catalog is available
+When the user submits a valid request with all required fields
+Then the system should process the request successfully and return a confirmation 
 ```
